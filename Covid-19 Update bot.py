@@ -17,6 +17,6 @@ def covid_update():
         
         toast = ToastNotifier()
         toast.show_toast('Covid-19 Updates Bangladesh', text, duration = 15)
-        time.sleep(8)
+        time.sleep(10)
         
 covid_update()
