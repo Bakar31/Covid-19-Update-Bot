@@ -11,7 +11,7 @@ def covid_update():
     '''
     response = requests.get('https://coronavirus-19-api.herokuapp.com/countries')
     data = response.json()
-    confirmed_cases = data[26]['cases']
+    confirmed_cases = data[26]['cases']  # 26 is the row number of Bangladesh.
     deaths = data[26]['deaths']
     today_cases = data[26]['todayCases']
     today_deaths = data[26]['todayDeaths']
