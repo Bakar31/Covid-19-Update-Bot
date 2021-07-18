@@ -1,4 +1,4 @@
-# Python-Project
+# Covid-19 Update bot-Project
 
 For installing required lobraries
 
